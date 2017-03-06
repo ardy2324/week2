@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="{{ url('halo') }}">Halo</a><br>
+                    <a href="{{ url('halo') }}">Halo</a><br><br>
                     <a href="{{ url('bebas') }}">Bebas</a>
                 </div>
 
