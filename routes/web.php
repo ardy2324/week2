@@ -12,20 +12,18 @@
 */
 
 Route::get('/', function () {
-    $tanggal = date("d-m-Y H:i:s", time());
-    $gini = "Ardy <3 Cinthya";
-    return view('welcome')->with ('tanggal', $tanggal)->with ('gini', $gini);
+    return view('welcome');
 });
 
-Route::get('halo', function () {
-    return view('halo');
+Route::get('about', function () {
+    return view('about');
 });
 
 Route::get('halo/bebas', function () {
     return view('terserah.bebas');
 });
 
-Route::get('bebas', function () {
-    return view('terserah.bebas');
+Route::get('gallery', function () {
+    return view('terserah.gallery');
 });
 
